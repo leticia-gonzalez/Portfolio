@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="style.css" rel="stylesheet">
+	<title>EVENTS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="bootstrap-grid.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+        } );
+	</script>
+</head>
+<body>
+<div class="container content-wrapper" id="main-content-wrapper">
+	<div class="dynamic-pages">
+
+		<div class="row-divider">&nbsp;</div>
+
+		<header>
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light" align="right">
+					<ul>
+						<li>
+							<a href="index.html">
+								<img align="left" width="50px" src="assets/Logo.png">
+							</a>
+						</li>
+						<il>
+							<a href="creative.html">MENU</a>
+							<a href="about.html">ABOUT</a>
+							<a href="Events.html">EVENTS</a>
+						</il>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="calendar">
+				<p>Date: <input type="text" id="datepicker"></p>
+			</div>
+
+			<div class="col-md-12">
+				<ul>
+					<li>event1</li>
+				</ul>
+			</div>
+		</main>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+* {
+    color: black;
+    background-color: white;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+
+/*----------- Dropdown navbar start -------------*/
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*----------- Dropdown navbar end -------------*/
+
+a:link, a:visited {
+    font-family: Impact;
+    text-decoration: none;
+    background-color:transparent ;
+}
+
+a:hover, a:active {
+    color: darkgrey;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 16pt;
+}
+
+.container {
+    width: auto;
+    height: 300px;
+    background-color: transparent;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    top: 0px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 20px 50px 20px 30px;
+}
+
+nav li {
+    margin-right: 40px;
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.calendar {
+    margin-left: 50px;
+}
+
+.gallery {
+    width: 1200px;
+
+}
+
+
+
+.text-component {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* scroll alternate thing*/
+
+.cd-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cd-section--bg-fixed {
+    min-height: 60vh;
+    background-attachment: fixed;
+}
+
+/* backgrounds */
+.cd-section:nth-child(1) {
+    background-image: url("assets/wine.jpg");
+}
+
+.cd-section:nth-child(2) {
+    background-color: var(--cd-color-2);
+}
+
+.cd-section:nth-child(3) {
+    background-image: url("assets/bravas.jpg");
+}
+
+/* all other background images */
