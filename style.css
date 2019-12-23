@@ -9,45 +9,47 @@ body, html {
 }
 
 .logo {
-    padding-bottom: 20px;
+    padding-top: -5px;
 }
 
 /*----------- Dropdown navbar start -------------*/
 
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: inherit;
-    font-family: inherit;
+ul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-
-
-.dropdown-content {
+li {
+    float: left;
+}
+li a, .dropdown-btn {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropdown-btn {
+    background-color: #ffffff;
+    color: #b4b4b4;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
 }
-
-.dropdown-content a {
-    float: none;
-    color: black;
+.dropdown-menu a {
+    color: grey;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: inherit;
     text-align: left;
 }
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-menu {
     display: block;
 }
 
@@ -139,6 +141,10 @@ nav li a {
 
 .cd-section:nth-child(3) {
     background-image: url("assets/bravas.jpg");
+}
+
+.cd-section:nth-child1(1) {
+    background-image: url("assets/wine.jpg");
 }
 
 /* all other background images */
