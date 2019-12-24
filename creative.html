@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet">
+		<script src="javascript.js"></script>
+		<title>MENU</title>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="/resources/demos/style.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+            $( function() {
+                $( "#tabs" ).tabs();
+            } );
+		</script>
+	</head>
+	<body>
+	<div class="container content-wrapper" id="main-content-wrapper">
+		<div class="dynamic-pages">
+			<header>
+				<div class="container">
+					<nav>
+						<ul>
+							<li class="logo">
+								<a href="index.html">
+									<img align="left" width="50px" src="assets/Logo.png">
+								</a>
+							</li>
+							<li>
+								<a href="creative.html">MENU</a>
+							</li>
+							<li>
+								<a href="Events.html">EVENTS</a>
+							</li>
+							<li class="dropdown">
+								<a class="dropdown-btn" href="about.html">ABOUT</a>
+								<div class="dropdown-menu">
+									<a href="#">Link 1</a>
+									<a href="#">Link 2</a>
+									<a href="#">Link 3</a>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+			<main>
+
+				<section class="cd-section cd-section--bg-fixed">
+					<div class="container max-width-sm">
+					</div>
+				</section>
+
+
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1">Tapas</a></li>
+						<li><a href="#tabs-2">Cake and Sweets</a></li>
+						<li><a href="#tabs-3">Drinks and Coffee</a></li>
+					</ul>
+					<div id="tabs-1">
+						<p>Ein entspannter Abend, gute Freunde, eine Flasche Wein und dazu eine bunte Auswahl an Häppchen. Nein, nicht irgendwelche Häppchen: Tapas! Die mediterranen Köstlichkeiten werden in Spanien traditionell in Begleitung eines Getränks serviert. Mittlerweile sind sie aber auch außerhalb Spaniens schon längst in aller Munde. Bei Tapas geht es nicht nur ums Essen, sondern um Genuss, Geselligkeit und Lebensfreude.</p>
+					</div>
+					<div id="tabs-2">
+						<p>Merienda is a light meal in southern Europe, particularly Spain, Portugal and as well as Hispanic America and the Philippines. Usually taken in the afternoon or for brunch, it fills in the meal gap between the noontime meal and the evening meal, being the equivalent of afternoon tea in the English-speaking world; or between breakfast and lunch. It is a simple meal that often consists of a piece of fruit, cookies, yogurt, and other snacks paired with juice, hot chocolate, coffee, spirits, or other beverages.</p>
+					</div>
+					<div id="tabs-3">
+						<p>Adding a little alcohol to your favorite fresh-brewed coffee is a great way to give it an extra kick. You can follow tradition and mix up an Irish coffee with whiskey or get decadent and add liqueurs like amaretto, butterscotch schnapps, or Irish cream.
+							Coffee cocktails are flavorful, a pleasure to sip, and, quite often, incredibly easy to mix up. But don't worry you can have both separately too.</p>
+					</div>
+				</div>
+
+			</main>
+
+			</div>
+		</div>
+	</body>
+</html>
