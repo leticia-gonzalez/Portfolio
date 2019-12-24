@@ -9,3 +9,10 @@ function showImgContent(e) {
         imgContent[i].style.top = e.pageY + 'px';
     }
 }
+
+
+
+$("my-form") .submit (function (event) {
+    event.preventDefault();
+    var textInput = $(my-input) .val();
+})
